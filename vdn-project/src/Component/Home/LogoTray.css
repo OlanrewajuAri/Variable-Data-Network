@@ -1,0 +1,82 @@
+@media screen and (max-width: 992px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.LogoTrayParent {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .LogoTrayParent {
+
+  
+  }
+}
+
+.mobilecenter{
+  text-align: center;
+}
+
+
+.LogoTrayParent h6 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2em;
+
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #081f14;
+}
+
+@media screen and (max-width: 600px) {
+  .LogoTrayParent h6 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #081f14;
+  }
+}
+
+.LogoTrayChildren img {
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .LogoTrayChildren {
+    display: none;
+  }
+}
+
+.LogoTrayChildrenMobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .LogoTrayChildrenMobile {
+    display: unset;  
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .LogoTrayChildrenMobile img {
+    width: 100px;
+    height: 100px;
+   margin-left: 1.5rem;
+  }
+}

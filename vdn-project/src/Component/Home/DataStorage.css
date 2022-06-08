@@ -1,0 +1,171 @@
+@media screen and (max-width: 992px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.DataStorageMainBody {
+  background: #eef6f0;
+  /* height: 100vh; */
+  min-height: 100vh;
+}
+@media screen and (max-width:600px){
+  .DataStorageMainBody  {
+   /* height: 100vh; */
+  }
+}
+
+.DataStorageBody {
+  display: flex;
+  padding-top: 10%;
+}
+
+@media screen and (max-width:600px){
+  .DataStorageBody {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+  }
+}
+
+.DataStorageText {
+  width: 40%;
+  padding-top: 4rem;
+  align-items: center;
+}
+
+@media screen and (max-width:600px){
+  .DataStorageText {
+   width: 100%;
+   align-items: center;
+   text-align: center;
+  }
+}
+
+.DataStorageText h6 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #39764a;
+  margin-bottom: 0.5rem;
+}
+@media screen and (max-width:600px){
+  .DataStorageText h6 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;    
+    letter-spacing: 0.2em;
+    text-transform: uppercase;    
+    color: #39764A;
+
+  }
+}
+
+.DataStorageText h4 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #081f14;
+  margin-bottom: 1.1rem;
+}
+@media screen and (max-width:600px){
+  .DataStorageText h4 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;    
+    text-align: center;    
+    color: #081F14
+
+  }
+}
+
+
+.DataStorageText p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5c6b64;
+  width: 100% !important;
+}
+
+@media screen and (max-width:600px){
+  .DataStorageText p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;    
+    text-align: center;    
+    color: #5C6B64;
+
+  }
+}
+
+.DataStorageFlex {
+  width: 40%;
+  margin-left: 10%;
+}
+
+@media screen and (max-width:600px){
+  .DataStorageFlex{
+   width: 100% !important;
+   margin-left: 0% !important;
+
+  }
+}
+
+
+.DataGrandchild {
+  border: 3px #ffffff;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1rem 1rem 1rem 2rem;
+  color: #23382e;
+}
+
+@media screen and (max-width:600px){
+  .DataGrandchild{
+   margin-left: 0rem;
+   margin-bottom: 1rem;
+  }
+}
+
+
+a .DataGrandchild {
+  color: #23382e;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.DataStorageArrow {
+  float: right;
+}
+
+a img {
+  margin-right: 1rem;
+}

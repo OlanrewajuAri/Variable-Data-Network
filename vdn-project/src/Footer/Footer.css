@@ -1,0 +1,158 @@
+@media screen and (max-width: 992px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.FooterContainer {
+  background: #081f14;
+}
+
+@media screen and (max-width: 600px) {
+  .FooterContainer {
+   display: none;
+  }
+}
+
+.FooterMainParent {
+  display: flex;
+}
+
+.FooterParent {
+  padding-top: 5rem;
+}
+
+.FooterParent p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c1c7c4;
+  width: 90%;
+  margin-top: 3rem;
+}
+
+.FooterParent h6 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 29px;
+  color: #fafbfa;
+}
+
+form {
+  margin-top: 3rem;
+  width: 79%;
+}
+
+.formInput {
+  border: #142a20;
+
+  background: #142a20;
+  border-radius: 8px;
+  padding: 1rem 1rem;
+}
+
+.stre {
+  /* border-radius: 3px solid red;
+    border: 3px solid red; */
+  background: #142a20;
+  border-radius: 8px;
+}
+
+.submitHere {
+  background: #51a969;
+  border-radius: 4px;
+  border: 12px #51a969;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin-left: -1rem;
+  margin-top: 0.5rem;
+
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #fafbfa;
+}
+
+.ok :hover{
+    background: #6FB883;
+}
+
+.ok :active {
+    background: #39764A;
+}
+
+.FooterChildren {
+  display: flex;
+  padding-top: 5rem;
+  margin-left: 20%;
+}
+
+.FooterChild {
+  margin-left: 3rem;
+}
+
+.FooterChild h2 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: left;
+  color: #7a8680;
+  margin-bottom: 1.8rem;
+}
+
+.FooterChild a {
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterChild span {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: left;
+  color: #f5f6f6;
+  padding-bottom: 1.8rem;
+}
+
+.FooterGrandPa {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.socilaMediaHandles2 {
+  padding-left: 1rem;
+}
+
+.socilaMediaHandles2 img {
+  width: 40px;
+  height: 40px;
+}
+
+.FooterCopyright {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.FooterCopyright p {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* text-align: center;  */
+  color: rgba(255, 255, 255, 0.5);
+}

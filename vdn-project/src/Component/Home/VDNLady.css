@@ -1,0 +1,86 @@
+@media screen and (max-width: 992px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.HomePage9Main {
+}
+
+.HomePage9Parent {
+  padding-top: 5rem;
+}
+
+.HomePage9Parent h3 {
+  text-align: center;
+  color: #081f14;
+  width: 70%;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 57px;
+  margin-left: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+  .HomePage9Parent h3 {
+    width: 100%;
+    margin-left: 0rem;
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #081f14;
+  }
+}
+
+.HomePage9Parent p {
+  text-align: center;
+  color: #41534a;
+  width: 70%;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+  .HomePage9Parent p {
+    width: 100%;
+    margin-left: 0rem;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #41534a;
+  }
+}
+
+.HomePage9Parent {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .HomePage9Parent  {
+    text-align: center;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .HomePage9Parent  img{
+    width: 300px;
+    height: 300px;
+  }
+}

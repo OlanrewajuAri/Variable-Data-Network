@@ -1,0 +1,131 @@
+.FooterMobilGrandParent {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .FooterMobilGrandParent {
+    display: unset;
+    background: #081f14 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .FooterMobilSubGrandParent{
+      background: #081f14 !important;
+    }
+  }
+
+
+
+@media screen and (max-width: 600px) {
+  .FooterMobilParent {
+    background: #081f14 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2 button {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    color: #c1c7c4 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ul li a {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #c1c7c4 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ul li {
+    list-style-type: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FooterMobilImg {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FooterMobilImg img {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FooterMobilImg p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #c1c7c4;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .FooterGrandPaa {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        justify-content: center;
+        
+      }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .socilaMediaHandles22 {
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .socilaMediaHandles22 img {
+        width: 40px;
+        height: 40px;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .FooterCopyrightt {
+        margin-top: 1.5rem;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .FooterCopyrightt p {
+        font-family: "Clash Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+  }
+ 
+  
+  
+ 
+  
+
+
+  
